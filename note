@@ -1,0 +1,29 @@
+writing polish char to JSON
+https://stackoverflow.com/questions/18337407/saving-utf-8-texts-in-json-dumps-as-utf8-not-as-u-escape-sequence
+
+----
+
+
+I need a converter of a bus schedule document into semantic JSON. Input:
+
+http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html (snapshot: https://web.archive.org/web/20181008002031/http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html )
+
+Output JSON:
+{
+"valid_until": " 2019-06-19",
+"destinations": [
+{
+  "to": "Brojce",
+  "via": ["Raduń skrz."],
+  "express": 0,
+  "departures": [
+   {
+    "time": "06:40",
+    "modifiers": ["S", "3"],
+.......
+
+The Express field is 1 for entries in red.
+
+The code should be able to parse all schedules linked from from http://www.pksgryfice.com.pl/autobusy/
+
+The code should fail with an exception when the format changes and it can't parse all fields.
