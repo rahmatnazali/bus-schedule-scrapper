@@ -9,54 +9,17 @@ import io
 link = 'http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html'
 snapshot = 'https://web.archive.org/web/20181008002031/http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html'
 
-
-# get = requests.get(link)
-# print(get.text)
-
-# open with codecs, fail
-# f = codecs.open('sample/bus.html', 'r', 'utf-8')
-# for line in f:
-#     print(f)
-
-# withh io.open
-# with io.open('sample/bus.html', encoding='utf-8') as f:
-#     for line in f:
-#         print(line)
-
-
 # with rb - Worked!
 with open('sample/bus.html', 'r', encoding='unicode_escape') as f:
     text = f.read()
     # print(text)
-    # for line in text:
-    #     print(line)
 
 soup = BeautifulSoup(text, 'html.parser')
 
+# json var
+json_dict = {}
+json_list = []
 
-# current working
-# soup = BeautifulSoup(open('sample/bus.html', encoding='utf-8', errors='ignore'), 'html.parser')
-
-# soup = BeautifulSoup(open('sample/bus.html', encoding='ISO-8859-1', errors='ignore'), 'html.parser')
-# soup = BeautifulSoup(open('sample/bus.html', encoding='latin-1', errors='ignore'), 'html.parser')
-
-# print(soup)
-
-# res = soup.find_all('span')
-# for el in res:
-#     print(el.text)
-# print(res)
-
-# Kierunek = soup.find_all('span', attrs={'style': 'font-size:14.0pt'})
-# print(res)
-# for el in Kierunek:
-#     print(el.text)
-
-
-
-
-# json dump
-a_list = []
 
 # working code to select all data
 main_table = soup.find('table', attrs={'class': 'MsoNormalTable'})
@@ -72,11 +35,11 @@ for row in tr:
     all_column = row.findAll('td')
     for col in all_column:
         # print(col.text)
-        a_list.append(col.text.strip())
+        json_list.append(col.text.strip())
 
 
 # process it
-list_to_process = a_list[3:]
+list_to_process = json_list[3:]
 print(list_to_process)
 
 processed_list = []
@@ -120,5 +83,5 @@ for line in list_to_process:
 
 # dump it!
 import json
-json_string = json.dumps(a_list, ensure_ascii=False)
+json_string = json.dumps(json_list, ensure_ascii=False)
 print(json_string)
