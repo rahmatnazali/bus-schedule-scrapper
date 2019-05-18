@@ -144,8 +144,11 @@ def scaffold(schedule_link):
 
         # dump the result to json
         json_string = json.dumps(final_data, ensure_ascii=False)
-        with open('output/{}.json'.format(str(datetime.datetime.now()).replace(':', '-').replace('.', '-')), 'w') as outputFile:
+        filename = 'output/{}.json'.format(str(datetime.datetime.now()).replace(':', '-').replace('.', '-'))
+        with open(filename, 'w') as outputFile:
             outputFile.write(json_string)
+
+        print('created:', filename)
 
     except Exception as e:
         print(e, type(e))
