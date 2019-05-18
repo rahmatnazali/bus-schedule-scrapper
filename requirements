@@ -1,9 +1,3 @@
-writing polish char to JSON
-https://stackoverflow.com/questions/18337407/saving-utf-8-texts-in-json-dumps-as-utf8-not-as-u-escape-sequence
-
-----
-
-
 I need a converter of a bus schedule document into semantic JSON. Input:
 
 http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html (snapshot: https://web.archive.org/web/20181008002031/http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html )
