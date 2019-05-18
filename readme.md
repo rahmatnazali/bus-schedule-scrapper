@@ -21,7 +21,6 @@ Options:
 
 
 $ python3 scrap_schedule.py --schedule_link http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html
-Schedule link [http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html]: 
 created: output/2019-05-18 15-00-52-524234.json
 
 ```
