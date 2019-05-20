@@ -31,39 +31,42 @@ created: output/2019-05-18 15-00-52-524234.json
 {  
    "destinations":[  
       {  
-         "express":0,
-         "to":"Brojce",
          "via":[  
-            "Raduñ skrz."
+            "Przez"
          ],
+         "to":"Kierunek",
          "departures":[  
             {  
                "time":"06.40",
                "modifiers":[  
                   "S",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.45",
                "modifiers":[  
                   "S",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.35",
                "modifiers":[  
                   "F",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.15",
                "modifiers":[  
                   "S",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.10",
@@ -71,7 +74,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.45",
@@ -79,7 +83,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.10",
@@ -87,7 +92,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.15",
@@ -95,7 +101,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"17.30",
@@ -103,16 +110,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Cerkwica",
          "via":[  
             "Przybiernówko"
          ],
+         "to":"Cerkwica",
          "departures":[  
             {  
                "time":"05.00",
@@ -120,28 +127,32 @@ created: output/2019-05-18 15-00-52-524234.json
                   "H",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"05.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.10",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.40",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.35",
@@ -149,42 +160,48 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.45",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.00",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"10.30",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.30",
                "modifiers":[  
                   "R",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -193,35 +210,40 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
                "modifiers":[  
                   "C",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.05",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.45",
@@ -229,7 +251,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.50",
@@ -237,7 +260,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -245,14 +269,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.50",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"21.25",
@@ -260,38 +286,41 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":1,
-         "to":"Goleniów",
          "via":[  
-            "P³oty",
+            "Płoty",
             "Nowogard"
          ],
+         "to":"Goleniów",
          "departures":[  
             {  
                "time":"05.10",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.45",
                "modifiers":[  
                   "D",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.50",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.30",
@@ -299,7 +328,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.40",
@@ -307,14 +337,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.20",
                "modifiers":[  
                   "K",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.30",
@@ -322,7 +354,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"17.00",
@@ -330,7 +363,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -338,7 +372,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"19.25",
@@ -346,23 +381,24 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":1
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Górzyca",
          "via":[  
             "Zielin"
          ],
+         "to":"Górzyca",
          "departures":[  
             {  
                "time":"05.15",
                "modifiers":[  
                   "S",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.20",
@@ -371,7 +407,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -379,14 +416,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
                "modifiers":[  
                   "F",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"20.00",
@@ -394,17 +433,17 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Gr¹d",
          "via":[  
             "Brojce",
-            "Kie³pino"
+            "Kiełpino"
          ],
+         "to":"Grąd",
          "departures":[  
             {  
                "time":"15.10",
@@ -412,13 +451,12 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Kamieñ Pom.",
          "via":[  
             "Pogorzelica",
             "Niechorze",
@@ -426,6 +464,7 @@ created: output/2019-05-18 15-00-52-524234.json
             "Pobierowo",
             "Dziwnówek"
          ],
+         "to":"Kamień Pom.",
          "departures":[  
             {  
                "time":"16.50",
@@ -433,59 +472,65 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Kamieñ Pom.",
          "via":[  
             "Stuchowo",
-            "wierzno"
+            "Świerzno"
          ],
+         "to":"Kamień Pom.",
          "departures":[  
             {  
                "time":"06.50",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.55",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.15",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.40",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.00",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.20",
@@ -493,17 +538,17 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "1"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Karnice",
          "via":[  
             "Przybiernówko",
             "Cerkwica"
          ],
+         "to":"Karnice",
          "departures":[  
             {  
                "time":"05.00",
@@ -511,28 +556,32 @@ created: output/2019-05-18 15-00-52-524234.json
                   "H",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"05.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.10",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.40",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.35",
@@ -540,42 +589,48 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.45",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.00",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"10.30",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.30",
                "modifiers":[  
                   "R",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -584,35 +639,40 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
                "modifiers":[  
                   "C",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.05",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.45",
@@ -620,7 +680,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.50",
@@ -628,7 +689,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -636,14 +698,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.50",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"21.25",
@@ -651,19 +715,19 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Ko³obrzeg",
          "via":[  
             "Trzebiatów",
-            "Mrze¿yno",
+            "Mrzeżyno",
             "Rogowo",
-            "Dwirzyno"
+            "Dźwirzyno"
          ],
+         "to":"Kołobrzeg",
          "departures":[  
             {  
                "time":"05.15",
@@ -671,7 +735,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "S",
                   "@",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.20",
@@ -680,7 +745,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -688,7 +754,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
@@ -696,7 +763,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "*",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"20.00",
@@ -704,18 +772,18 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":1,
-         "to":"Koszalin",
          "via":[  
             "Pniewo",
-            "Rymañ",
+            "Rymań",
             "Karlino"
          ],
+         "to":"Koszalin",
          "departures":[  
             {  
                "time":"12.00",
@@ -723,17 +791,17 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "2"
-               ]
+               ],
+               "express":1
             }
          ]
       },
       {  
-         "express":0,
-         "to":"£obez",
          "via":[  
             "Modlimowo",
             "Resko"
          ],
+         "to":"Łobez",
          "departures":[  
             {  
                "time":"10.45",
@@ -741,7 +809,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.30",
@@ -749,14 +818,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.40",
                "modifiers":[  
                   "K",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"19.05",
@@ -764,31 +835,33 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"£obez",
          "via":[  
-            "P³oty",
+            "Płoty",
             "Resko"
          ],
+         "to":"Łobez",
          "departures":[  
             {  
                "time":"07.40",
                "modifiers":[  
                   "S",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.15",
                "modifiers":[  
                   "F",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
@@ -796,24 +869,25 @@ created: output/2019-05-18 15-00-52-524234.json
                   "H",
                   "U",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.00",
                "modifiers":[  
                   "S",
                   "2"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Mrze¿yno",
          "via":[  
-            "Górzycê",
+            "Górzycę",
             "Trzebiatów"
          ],
+         "to":"Mrzeżyno",
          "departures":[  
             {  
                "time":"05.15",
@@ -821,7 +895,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "S",
                   "@",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.20",
@@ -830,7 +905,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -838,7 +914,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
@@ -846,7 +923,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "*",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"20.00",
@@ -854,31 +932,33 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Niechorze",
          "via":[  
             "Cerkwica",
             "Karnice"
          ],
+         "to":"Niechorze",
          "departures":[  
             {  
                "time":"05.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.40",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.35",
@@ -886,35 +966,40 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.45",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.00",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"10.30",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.30",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -923,28 +1008,32 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
                "modifiers":[  
                   "C",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.05",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.45",
@@ -952,7 +1041,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.50",
@@ -960,7 +1050,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -968,14 +1059,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.50",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"21.25",
@@ -983,39 +1076,42 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":1,
-         "to":"Nowogard",
          "via":[  
             "Barkowo",
-            "P³oty",
-            "¯abowo"
+            "Płoty",
+            "Żabowo"
          ],
+         "to":"Nowogard",
          "departures":[  
             {  
                "time":"05.10",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.45",
                "modifiers":[  
                   "D",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.50",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.30",
@@ -1023,7 +1119,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.40",
@@ -1031,21 +1128,24 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.20",
                "modifiers":[  
                   "K",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.45",
                "modifiers":[  
                   "S",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.30",
@@ -1053,7 +1153,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"17.00",
@@ -1061,7 +1162,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -1069,7 +1171,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"19.25",
@@ -1077,44 +1180,48 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":1
             }
          ]
       },
       {  
-         "express":1,
-         "to":"P³oty",
          "via":[  
             "Barkowo"
          ],
+         "to":"Płoty",
          "departures":[  
             {  
                "time":"05.10",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.45",
                "modifiers":[  
                   "D",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.40",
                "modifiers":[  
                   "S",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.50",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.30",
@@ -1122,7 +1229,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.40",
@@ -1130,28 +1238,32 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.15",
                "modifiers":[  
                   "F",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.20",
                "modifiers":[  
                   "K",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.45",
                "modifiers":[  
                   "S",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
@@ -1159,14 +1271,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "H",
                   "U",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.00",
                "modifiers":[  
                   "S",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.30",
@@ -1174,7 +1288,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"17.00",
@@ -1182,7 +1297,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -1190,7 +1306,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"19.25",
@@ -1198,42 +1315,43 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":1
             }
          ]
       },
       {  
-         "express":0,
-         "to":"P³oty",
          "via":[  
-            "Trzyg³ów",
+            "Trzygłów",
             "Truskolas",
             "Mechowo"
          ],
+         "to":"Płoty",
          "departures":[  
             {  
                "time":"11.30",
                "modifiers":[  
                   "S",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.40",
                "modifiers":[  
                   "F",
                   "2"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":1,
-         "to":"Pniewo",
          "via":[  
             "Modlimowo",
             "Wicimice"
          ],
+         "to":"Pniewo",
          "departures":[  
             {  
                "time":"12.00",
@@ -1241,21 +1359,24 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "2"
-               ]
+               ],
+               "express":1
             },
             {  
                "time":"15.00",
                "modifiers":[  
                   "S",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.10",
                "modifiers":[  
                   "F",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.30",
@@ -1263,56 +1384,59 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Pniewo",
          "via":[  
             "Brojce",
-            "Kie³pino",
-            "Smokêcino"
+            "Kiełpino",
+            "Smokęcino"
          ],
+         "to":"Pniewo",
          "departures":[  
             {  
                "time":"09.35",
                "modifiers":[  
                   "F",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Pobierowo",
          "via":[  
             "Cerkwica",
             "Karnice"
          ],
+         "to":"Pobierowo",
          "departures":[  
             {  
                "time":"05.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.10",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.40",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.35",
@@ -1320,42 +1444,48 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.45",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.00",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"10.30",
                "modifiers":[  
                   "C",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.30",
                "modifiers":[  
                   "R",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -1364,35 +1494,40 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
                "modifiers":[  
                   "C",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.05",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.45",
@@ -1400,7 +1535,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.50",
@@ -1408,7 +1544,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -1416,14 +1553,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.50",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"21.25",
@@ -1431,59 +1570,65 @@ created: output/2019-05-18 15-00-52-524234.json
                   "B",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Pogorzelica",
          "via":[  
             "Cerkwica",
             "Karnice"
          ],
+         "to":"Pogorzelica",
          "departures":[  
             {  
                "time":"05.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.40",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.45",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.00",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"10.30",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.30",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -1492,21 +1637,24 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.05",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.45",
@@ -1514,7 +1662,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.50",
@@ -1522,7 +1671,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -1530,14 +1680,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.50",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"21.25",
@@ -1545,18 +1697,18 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Po³czyn Zdrój",
          "via":[  
             "Resko",
-            "£obez",
-            "widwin"
+            "Łobez",
+            "Świdwin"
          ],
+         "to":"Połczyn Zdrój",
          "departures":[  
             {  
                "time":"10.45",
@@ -1564,33 +1716,33 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Prusinowo",
          "via":[  
-            "Niek³ad"
+            "Niekładź"
          ],
+         "to":"Prusinowo",
          "departures":[  
             {  
                "time":"11.20",
                "modifiers":[  
                   "S",
                   "1"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Resko",
          "via":[  
             "Wyszobór",
             "Modlimowo"
          ],
+         "to":"Resko",
          "departures":[  
             {  
                "time":"10.45",
@@ -1598,7 +1750,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.30",
@@ -1606,14 +1759,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.40",
                "modifiers":[  
                   "K",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"19.05",
@@ -1621,31 +1776,33 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Resko",
          "via":[  
             "Barkowo",
-            "P³oty"
+            "Płoty"
          ],
+         "to":"Resko",
          "departures":[  
             {  
                "time":"07.40",
                "modifiers":[  
                   "S",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.15",
                "modifiers":[  
                   "F",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
@@ -1653,24 +1810,25 @@ created: output/2019-05-18 15-00-52-524234.json
                   "H",
                   "U",
                   "2"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.00",
                "modifiers":[  
                   "S",
                   "2"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Rewal",
          "via":[  
             "Cerkwica",
             "Karnice"
          ],
+         "to":"Rewal",
          "departures":[  
             {  
                "time":"05.00",
@@ -1678,28 +1836,32 @@ created: output/2019-05-18 15-00-52-524234.json
                   "H",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"05.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.10",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.40",
                "modifiers":[  
                   "D",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.35",
@@ -1707,42 +1869,48 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.45",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.00",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"10.30",
                "modifiers":[  
                   "C",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.30",
                "modifiers":[  
                   "R",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -1751,35 +1919,40 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.15",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
                "modifiers":[  
                   "S",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.45",
                "modifiers":[  
                   "C",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.05",
                "modifiers":[  
                   "F",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.45",
@@ -1787,7 +1960,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.50",
@@ -1795,7 +1969,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -1803,14 +1978,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.50",
                "modifiers":[  
                   "E",
                   "5"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"21.25",
@@ -1818,18 +1995,18 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "5"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":1,
-         "to":"S³upsk",
          "via":[  
-            "Rymañ",
+            "Rymań",
             "Koszalin",
-            "S³awno"
+            "Sławno"
          ],
+         "to":"Słupsk",
          "departures":[  
             {  
                "time":"12.00",
@@ -1837,38 +2014,41 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "2"
-               ]
+               ],
+               "express":1
             }
          ]
       },
       {  
-         "express":1,
-         "to":"Szczecin",
          "via":[  
             "Nowogard",
             "Goleniów"
          ],
+         "to":"Szczecin",
          "departures":[  
             {  
                "time":"05.10",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"06.45",
                "modifiers":[  
                   "D",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"07.50",
                "modifiers":[  
                   "F",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"09.30",
@@ -1876,7 +2056,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.40",
@@ -1884,14 +2065,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.20",
                "modifiers":[  
                   "K",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.30",
@@ -1899,7 +2082,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"17.00",
@@ -1907,7 +2091,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.10",
@@ -1915,7 +2100,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "K",
                   "m",
                   "6"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"19.25",
@@ -1923,18 +2109,18 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "6"
-               ]
+               ],
+               "express":1
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Szczecinek",
          "via":[  
-            "£obez",
-            "widwin",
-            "Po³czyn Zdrój"
+            "Łobez",
+            "Świdwin",
+            "Połczyn Zdrój"
          ],
+         "to":"Szczecinek",
          "departures":[  
             {  
                "time":"10.45",
@@ -1942,18 +2128,18 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"widwin",
          "via":[  
             "Modlimowo",
             "Resko",
-            "£obez"
+            "Łobez"
          ],
+         "to":"Świdwin",
          "departures":[  
             {  
                "time":"10.45",
@@ -1961,23 +2147,24 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"winoujcie",
          "via":[  
-            "Kamieñ Pom."
+            "Kamień Pom."
          ],
+         "to":"Świnoujście",
          "departures":[  
             {  
                "time":"06.50",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.40",
@@ -1985,30 +2172,32 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "1"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.00",
                "modifiers":[  
                   "F",
                   "1"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Trzebiatów",
          "via":[  
             "Brojce"
          ],
+         "to":"Trzebiatów",
          "departures":[  
             {  
                "time":"06.45",
                "modifiers":[  
                   "S",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"12.10",
@@ -2016,7 +2205,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.45",
@@ -2024,7 +2214,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"15.10",
@@ -2032,7 +2223,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.15",
@@ -2040,23 +2232,24 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "3"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Trzebiatów",
          "via":[  
             "Górzyca"
          ],
+         "to":"Trzebiatów",
          "departures":[  
             {  
                "time":"05.15",
                "modifiers":[  
                   "S",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"08.20",
@@ -2065,14 +2258,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "U",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"11.30",
                "modifiers":[  
                   "S",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.00",
@@ -2080,14 +2275,16 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"14.40",
                "modifiers":[  
                   "F",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"20.00",
@@ -2095,57 +2292,58 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Waniorowo",
          "via":[  
             "Baszewice"
          ],
+         "to":"Waniorowo",
          "departures":[  
             {  
                "time":"07.05",
                "modifiers":[  
                   "S",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"13.30",
                "modifiers":[  
                   "L",
                   "1"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":0,
-         "to":"Wêgorzyn",
          "via":[  
-            "Niek³ad",
+            "Niekładź",
             "Prusinowo",
             "Zacisze"
          ],
+         "to":"Węgorzyn",
          "departures":[  
             {  
                "time":"11.20",
                "modifiers":[  
                   "S",
                   "1"
-               ]
+               ],
+               "express":0
             }
          ]
       },
       {  
-         "express":1,
-         "to":"Wicimice",
          "via":[  
             "Modlimowo"
          ],
+         "to":"Wicimice",
          "departures":[  
             {  
                "time":"12.00",
@@ -2153,21 +2351,24 @@ created: output/2019-05-18 15-00-52-524234.json
                   "D",
                   "m",
                   "2"
-               ]
+               ],
+               "express":1
             },
             {  
                "time":"15.00",
                "modifiers":[  
                   "S",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"16.10",
                "modifiers":[  
                   "F",
                   "4"
-               ]
+               ],
+               "express":0
             },
             {  
                "time":"18.30",
@@ -2175,7 +2376,8 @@ created: output/2019-05-18 15-00-52-524234.json
                   "F",
                   "m",
                   "4"
-               ]
+               ],
+               "express":0
             }
          ]
       }
