@@ -79,7 +79,7 @@ class Schedule():
 
 
 # with rb - Worked!
-with open('sample/bus.html', 'r', encoding='unicode_escape') as f:
+with open('sample/01_gryfice.html', 'r', encoding='unicode_escape') as f:
     text = f.read()
     # print(text)
 

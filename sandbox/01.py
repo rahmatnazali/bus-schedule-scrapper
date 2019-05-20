@@ -14,18 +14,18 @@ snapshot = 'https://web.archive.org/web/20181008002031/http://www.pksgryfice.com
 # print(get.text)
 
 # open with codecs, fail
-# f = codecs.open('sample/bus.html', 'r', 'utf-8')
+# f = codecs.open('sample/01_gryfice.html', 'r', 'utf-8')
 # for line in f:
 #     print(f)
 
 # withh io.open
-# with io.open('sample/bus.html', encoding='utf-8') as f:
+# with io.open('sample/01_gryfice.html', encoding='utf-8') as f:
 #     for line in f:
 #         print(line)
 
 
 # with rb - Worked!
-with open('sample/bus.html', 'r', encoding='unicode_escape') as f:
+with open('sample/01_gryfice.html', 'r', encoding='unicode_escape') as f:
     text = f.read()
     # print(text)
     # for line in text:
@@ -35,10 +35,10 @@ soup = BeautifulSoup(text, 'html.parser')
 
 
 # current working
-# soup = BeautifulSoup(open('sample/bus.html', encoding='utf-8', errors='ignore'), 'html.parser')
+# soup = BeautifulSoup(open('sample/01_gryfice.html', encoding='utf-8', errors='ignore'), 'html.parser')
 
-# soup = BeautifulSoup(open('sample/bus.html', encoding='ISO-8859-1', errors='ignore'), 'html.parser')
-# soup = BeautifulSoup(open('sample/bus.html', encoding='latin-1', errors='ignore'), 'html.parser')
+# soup = BeautifulSoup(open('sample/01_gryfice.html', encoding='ISO-8859-1', errors='ignore'), 'html.parser')
+# soup = BeautifulSoup(open('sample/01_gryfice.html', encoding='latin-1', errors='ignore'), 'html.parser')
 
 # print(soup)
 
