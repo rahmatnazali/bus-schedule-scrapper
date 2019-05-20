@@ -29,2359 +29,2359 @@ created: output/2019-05-18 15-00-52-524234.json
 
 ```json
 {  
+   "valid_until":"2019-06-19",
    "destinations":[  
       {  
-         "via":[  
-            "Przez"
-         ],
-         "to":"Kierunek",
+         "to":"Brojce",
          "departures":[  
             {  
                "time":"06.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.45",
+               "express":0,
                "modifiers":[  
                   "S",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.35",
+               "express":0,
                "modifiers":[  
                   "F",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.15",
+               "express":0,
                "modifiers":[  
                   "S",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"17.30",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Raduń skrz."
          ]
       },
       {  
-         "via":[  
-            "Przybiernówko"
-         ],
          "to":"Cerkwica",
          "departures":[  
             {  
                "time":"05.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.10",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.35",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.00",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"10.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.30",
+               "express":0,
                "modifiers":[  
                   "R",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "C",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.50",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"21.25",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Przybiernówko"
          ]
       },
       {  
-         "via":[  
-            "Płoty",
-            "Nowogard"
-         ],
          "to":"Goleniów",
          "departures":[  
             {  
                "time":"05.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.45",
+               "express":0,
                "modifiers":[  
                   "D",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.20",
+               "express":0,
                "modifiers":[  
                   "K",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"17.00",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"19.25",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":1
+               ]
             }
+         ],
+         "via":[  
+            "Płoty",
+            "Nowogard"
          ]
       },
       {  
-         "via":[  
-            "Zielin"
-         ],
          "to":"Górzyca",
          "departures":[  
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "S",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.20",
+               "express":0,
                "modifiers":[  
                   "F",
                   "U",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "F",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"20.00",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Zielin"
          ]
       },
       {  
-         "via":[  
-            "Brojce",
-            "Kiełpino"
-         ],
          "to":"Grąd",
          "departures":[  
             {  
                "time":"15.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Brojce",
+            "Kiełpino"
          ]
       },
       {  
+         "to":"Kamień Pom.",
+         "departures":[  
+            {  
+               "time":"16.50",
+               "express":0,
+               "modifiers":[  
+                  "F",
+                  "m",
+                  "5"
+               ]
+            }
+         ],
          "via":[  
             "Pogorzelica",
             "Niechorze",
             "Rewal",
             "Pobierowo",
             "Dziwnówek"
-         ],
-         "to":"Kamień Pom.",
-         "departures":[  
-            {  
-               "time":"16.50",
-               "modifiers":[  
-                  "F",
-                  "m",
-                  "5"
-               ],
-               "express":0
-            }
          ]
       },
       {  
-         "via":[  
-            "Stuchowo",
-            "Świerzno"
-         ],
          "to":"Kamień Pom.",
          "departures":[  
             {  
                "time":"06.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.55",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.40",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.00",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.20",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "1"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Stuchowo",
+            "Świerzno"
          ]
       },
       {  
-         "via":[  
-            "Przybiernówko",
-            "Cerkwica"
-         ],
          "to":"Karnice",
          "departures":[  
             {  
                "time":"05.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.10",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.35",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.00",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"10.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.30",
+               "express":0,
                "modifiers":[  
                   "R",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "C",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.50",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"21.25",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Przybiernówko",
+            "Cerkwica"
          ]
       },
       {  
+         "to":"Kołobrzeg",
+         "departures":[  
+            {  
+               "time":"05.15",
+               "express":0,
+               "modifiers":[  
+                  "S",
+                  "@",
+                  "4"
+               ]
+            },
+            {  
+               "time":"08.20",
+               "express":0,
+               "modifiers":[  
+                  "F",
+                  "U",
+                  "m",
+                  "4"
+               ]
+            },
+            {  
+               "time":"13.00",
+               "express":0,
+               "modifiers":[  
+                  "F",
+                  "m",
+                  "4"
+               ]
+            },
+            {  
+               "time":"14.40",
+               "express":0,
+               "modifiers":[  
+                  "F",
+                  "*",
+                  "4"
+               ]
+            },
+            {  
+               "time":"20.00",
+               "express":0,
+               "modifiers":[  
+                  "D",
+                  "m",
+                  "4"
+               ]
+            }
+         ],
          "via":[  
             "Trzebiatów",
             "Mrzeżyno",
             "Rogowo",
             "Dźwirzyno"
-         ],
-         "to":"Kołobrzeg",
-         "departures":[  
-            {  
-               "time":"05.15",
-               "modifiers":[  
-                  "S",
-                  "@",
-                  "4"
-               ],
-               "express":0
-            },
-            {  
-               "time":"08.20",
-               "modifiers":[  
-                  "F",
-                  "U",
-                  "m",
-                  "4"
-               ],
-               "express":0
-            },
-            {  
-               "time":"13.00",
-               "modifiers":[  
-                  "F",
-                  "m",
-                  "4"
-               ],
-               "express":0
-            },
-            {  
-               "time":"14.40",
-               "modifiers":[  
-                  "F",
-                  "*",
-                  "4"
-               ],
-               "express":0
-            },
-            {  
-               "time":"20.00",
-               "modifiers":[  
-                  "D",
-                  "m",
-                  "4"
-               ],
-               "express":0
-            }
          ]
       },
       {  
-         "via":[  
-            "Pniewo",
-            "Rymań",
-            "Karlino"
-         ],
          "to":"Koszalin",
          "departures":[  
             {  
                "time":"12.00",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "2"
-               ],
-               "express":1
+               ]
             }
+         ],
+         "via":[  
+            "Pniewo",
+            "Rymań",
+            "Karlino"
          ]
       },
       {  
-         "via":[  
-            "Modlimowo",
-            "Resko"
-         ],
          "to":"Łobez",
          "departures":[  
             {  
                "time":"10.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.30",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.40",
+               "express":0,
                "modifiers":[  
                   "K",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"19.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Modlimowo",
+            "Resko"
          ]
       },
       {  
-         "via":[  
-            "Płoty",
-            "Resko"
-         ],
          "to":"Łobez",
          "departures":[  
             {  
                "time":"07.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "2"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "2"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.00",
+               "express":0,
                "modifiers":[  
                   "S",
                   "2"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Płoty",
+            "Resko"
          ]
       },
       {  
-         "via":[  
-            "Górzycę",
-            "Trzebiatów"
-         ],
          "to":"Mrzeżyno",
          "departures":[  
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "S",
                   "@",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.20",
+               "express":0,
                "modifiers":[  
                   "F",
                   "U",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "F",
                   "*",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"20.00",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Górzycę",
+            "Trzebiatów"
          ]
       },
       {  
-         "via":[  
-            "Cerkwica",
-            "Karnice"
-         ],
          "to":"Niechorze",
          "departures":[  
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.35",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.00",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"10.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.30",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "C",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.50",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"21.25",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Cerkwica",
+            "Karnice"
          ]
       },
       {  
-         "via":[  
-            "Barkowo",
-            "Płoty",
-            "Żabowo"
-         ],
          "to":"Nowogard",
          "departures":[  
             {  
                "time":"05.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.45",
+               "express":0,
                "modifiers":[  
                   "D",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.20",
+               "express":0,
                "modifiers":[  
                   "K",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.45",
+               "express":0,
                "modifiers":[  
                   "S",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"17.00",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"19.25",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":1
+               ]
             }
+         ],
+         "via":[  
+            "Barkowo",
+            "Płoty",
+            "Żabowo"
          ]
       },
       {  
-         "via":[  
-            "Barkowo"
-         ],
          "to":"Płoty",
          "departures":[  
             {  
                "time":"05.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.45",
+               "express":0,
                "modifiers":[  
                   "D",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "2"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.20",
+               "express":0,
                "modifiers":[  
                   "K",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.45",
+               "express":0,
                "modifiers":[  
                   "S",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "2"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.00",
+               "express":0,
                "modifiers":[  
                   "S",
                   "2"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"17.00",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"19.25",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":1
+               ]
             }
+         ],
+         "via":[  
+            "Barkowo"
          ]
       },
       {  
+         "to":"Płoty",
+         "departures":[  
+            {  
+               "time":"11.30",
+               "express":0,
+               "modifiers":[  
+                  "S",
+                  "2"
+               ]
+            },
+            {  
+               "time":"15.40",
+               "express":0,
+               "modifiers":[  
+                  "F",
+                  "2"
+               ]
+            }
+         ],
          "via":[  
             "Trzygłów",
             "Truskolas",
             "Mechowo"
-         ],
-         "to":"Płoty",
-         "departures":[  
-            {  
-               "time":"11.30",
-               "modifiers":[  
-                  "S",
-                  "2"
-               ],
-               "express":0
-            },
-            {  
-               "time":"15.40",
-               "modifiers":[  
-                  "F",
-                  "2"
-               ],
-               "express":0
-            }
          ]
       },
       {  
-         "via":[  
-            "Modlimowo",
-            "Wicimice"
-         ],
          "to":"Pniewo",
          "departures":[  
             {  
                "time":"12.00",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "2"
-               ],
-               "express":1
+               ]
             },
             {  
                "time":"15.00",
+               "express":0,
                "modifiers":[  
                   "S",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.30",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Modlimowo",
+            "Wicimice"
          ]
       },
       {  
-         "via":[  
-            "Brojce",
-            "Kiełpino",
-            "Smokęcino"
-         ],
          "to":"Pniewo",
          "departures":[  
             {  
                "time":"09.35",
+               "express":0,
                "modifiers":[  
                   "F",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Brojce",
+            "Kiełpino",
+            "Smokęcino"
          ]
       },
       {  
-         "via":[  
-            "Cerkwica",
-            "Karnice"
-         ],
          "to":"Pobierowo",
          "departures":[  
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.10",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.35",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.00",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"10.30",
+               "express":0,
                "modifiers":[  
                   "C",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.30",
+               "express":0,
                "modifiers":[  
                   "R",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "C",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.50",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"21.25",
+               "express":0,
                "modifiers":[  
                   "B",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             }
-         ]
-      },
-      {  
+         ],
          "via":[  
             "Cerkwica",
             "Karnice"
-         ],
+         ]
+      },
+      {  
          "to":"Pogorzelica",
          "departures":[  
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.00",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"10.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.30",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.50",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"21.25",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Cerkwica",
+            "Karnice"
          ]
       },
       {  
-         "via":[  
-            "Resko",
-            "Łobez",
-            "Świdwin"
-         ],
          "to":"Połczyn Zdrój",
          "departures":[  
             {  
                "time":"10.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Resko",
+            "Łobez",
+            "Świdwin"
          ]
       },
       {  
-         "via":[  
-            "Niekładź"
-         ],
          "to":"Prusinowo",
          "departures":[  
             {  
                "time":"11.20",
+               "express":0,
                "modifiers":[  
                   "S",
                   "1"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Niekładź"
          ]
       },
       {  
-         "via":[  
-            "Wyszobór",
-            "Modlimowo"
-         ],
          "to":"Resko",
          "departures":[  
             {  
                "time":"10.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.30",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.40",
+               "express":0,
                "modifiers":[  
                   "K",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"19.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Wyszobór",
+            "Modlimowo"
          ]
       },
       {  
-         "via":[  
-            "Barkowo",
-            "Płoty"
-         ],
          "to":"Resko",
          "departures":[  
             {  
                "time":"07.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "2"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "2"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.00",
+               "express":0,
                "modifiers":[  
                   "S",
                   "2"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Barkowo",
+            "Płoty"
          ]
       },
       {  
-         "via":[  
-            "Cerkwica",
-            "Karnice"
-         ],
          "to":"Rewal",
          "departures":[  
             {  
                "time":"05.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.10",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.35",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.00",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"10.30",
+               "express":0,
                "modifiers":[  
                   "C",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.30",
+               "express":0,
                "modifiers":[  
                   "R",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "H",
                   "U",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "S",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.45",
+               "express":0,
                "modifiers":[  
                   "C",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.05",
+               "express":0,
                "modifiers":[  
                   "F",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.50",
+               "express":0,
                "modifiers":[  
                   "E",
                   "5"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"21.25",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "5"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Cerkwica",
+            "Karnice"
          ]
       },
       {  
-         "via":[  
-            "Rymań",
-            "Koszalin",
-            "Sławno"
-         ],
          "to":"Słupsk",
          "departures":[  
             {  
                "time":"12.00",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "2"
-               ],
-               "express":1
+               ]
             }
+         ],
+         "via":[  
+            "Rymań",
+            "Koszalin",
+            "Sławno"
          ]
       },
       {  
-         "via":[  
-            "Nowogard",
-            "Goleniów"
-         ],
          "to":"Szczecin",
          "departures":[  
             {  
                "time":"05.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"06.45",
+               "express":0,
                "modifiers":[  
                   "D",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"07.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"09.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.40",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.20",
+               "express":0,
                "modifiers":[  
                   "K",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.30",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"17.00",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.10",
+               "express":0,
                "modifiers":[  
                   "K",
                   "m",
                   "6"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"19.25",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "6"
-               ],
-               "express":1
+               ]
             }
+         ],
+         "via":[  
+            "Nowogard",
+            "Goleniów"
          ]
       },
       {  
-         "via":[  
-            "Łobez",
-            "Świdwin",
-            "Połczyn Zdrój"
-         ],
          "to":"Szczecinek",
          "departures":[  
             {  
                "time":"10.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Łobez",
+            "Świdwin",
+            "Połczyn Zdrój"
          ]
       },
       {  
-         "via":[  
-            "Modlimowo",
-            "Resko",
-            "Łobez"
-         ],
          "to":"Świdwin",
          "departures":[  
             {  
                "time":"10.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Modlimowo",
+            "Resko",
+            "Łobez"
          ]
       },
       {  
-         "via":[  
-            "Kamień Pom."
-         ],
          "to":"Świnoujście",
          "departures":[  
             {  
                "time":"06.50",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.40",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "1"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.00",
+               "express":0,
                "modifiers":[  
                   "F",
                   "1"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Kamień Pom."
          ]
       },
       {  
-         "via":[  
-            "Brojce"
-         ],
          "to":"Trzebiatów",
          "departures":[  
             {  
                "time":"06.45",
+               "express":0,
                "modifiers":[  
                   "S",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"12.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.45",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"15.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.15",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "3"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Brojce"
          ]
       },
       {  
-         "via":[  
-            "Górzyca"
-         ],
          "to":"Trzebiatów",
          "departures":[  
             {  
                "time":"05.15",
+               "express":0,
                "modifiers":[  
                   "S",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"08.20",
+               "express":0,
                "modifiers":[  
                   "F",
                   "U",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"11.30",
+               "express":0,
                "modifiers":[  
                   "S",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.00",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"14.40",
+               "express":0,
                "modifiers":[  
                   "F",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"20.00",
+               "express":0,
                "modifiers":[  
                   "D",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Górzyca"
          ]
       },
       {  
-         "via":[  
-            "Baszewice"
-         ],
          "to":"Waniorowo",
          "departures":[  
             {  
                "time":"07.05",
+               "express":0,
                "modifiers":[  
                   "S",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"13.30",
+               "express":0,
                "modifiers":[  
                   "L",
                   "1"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Baszewice"
          ]
       },
       {  
-         "via":[  
-            "Niekładź",
-            "Prusinowo",
-            "Zacisze"
-         ],
          "to":"Węgorzyn",
          "departures":[  
             {  
                "time":"11.20",
+               "express":0,
                "modifiers":[  
                   "S",
                   "1"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Niekładź",
+            "Prusinowo",
+            "Zacisze"
          ]
       },
       {  
-         "via":[  
-            "Modlimowo"
-         ],
          "to":"Wicimice",
          "departures":[  
             {  
                "time":"12.00",
+               "express":1,
                "modifiers":[  
                   "D",
                   "m",
                   "2"
-               ],
-               "express":1
+               ]
             },
             {  
                "time":"15.00",
+               "express":0,
                "modifiers":[  
                   "S",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"16.10",
+               "express":0,
                "modifiers":[  
                   "F",
                   "4"
-               ],
-               "express":0
+               ]
             },
             {  
                "time":"18.30",
+               "express":0,
                "modifiers":[  
                   "F",
                   "m",
                   "4"
-               ],
-               "express":0
+               ]
             }
+         ],
+         "via":[  
+            "Modlimowo"
          ]
       }
-   ],
-   "valid_until":"2019-06-19"
+   ]
 }
 ```
