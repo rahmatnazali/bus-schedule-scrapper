@@ -87,7 +87,9 @@ def scaffold(schedule_link):
     try:
         # make a requests
         get_request = requests.get(schedule_link)
-        soup = BeautifulSoup(get_request.text, 'html.parser')
+        html_text = get_request.content.decode('windows-1250')
+
+        soup = BeautifulSoup(html_text, 'html.parser')
 
         # find valid until date
         html_page_header = soup.find('span')
