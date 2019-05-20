@@ -1,0 +1,12 @@
+Every hour has an Express=1 attribute if it's red. I don't want it on city level. I now see my example JSON was wrong, sorry for this.
+
+$ python3 scrap_schedule.py --schedule_link http://www.pksgryfice.com.pl/uploads/images/rja/szczecin_d.html
+Page header format has changed <class 'ValueError'>
+
+$ python3 scrap_schedule.py --schedule_link http://www.pksgryfice.com.pl/uploads/images/rja/slupsk.html
+Page header format has changed <class 'ValueError'>
+
+$ python3 scrap_schedule.py --schedule_link http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_lipa.html
+Page header format has changed <class 'ValueError'>
+
+Also, minor thing: the pages are encoded with windows-1250 (it's in HTTP Content-Type header), and the JSON should be in UTF-8. Good job otherwise, nice compact code!
