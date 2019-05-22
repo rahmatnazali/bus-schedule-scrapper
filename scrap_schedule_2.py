@@ -9,7 +9,8 @@ import io
 import datetime
 
 
-regex_hour_modifier = re.compile(r"(\d+\.\d+)\s*(.*)$")
+regex_hour_modifier_mode_1 = re.compile(r"(\d+\.\d+)\s*(.*)$")
+regex_hour_modifier_mode_2 = re.compile(r"(\d+:\d+)\s*(.*)$")
 
 
 example_link = 'http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html'
@@ -35,7 +36,7 @@ class Schedule():
         self.raw_record.append(string)
 
     def push_information(self, string):
-        self.raw_record[-1] = self.raw_record[-1] + string
+        self.raw_record[-1].string = self.raw_record[-1].string + string
 
     def is_express(self, hour):
         has_p = hour.find('p')
@@ -50,9 +51,7 @@ class Schedule():
             return '0' + string
         return string
 
-    def process(self):
-        print(self.raw_record)
-        return
+    def process_mode_1(self):
         self.to = self.raw_record[0]
         self.via = self.raw_record[1].text.strip().split(', ')
         if isinstance(self.via, str):
@@ -61,7 +60,7 @@ class Schedule():
         self.hour_list = self.raw_record[2:]
 
         for hour in self.hour_list:
-            match = regex_hour_modifier.match(hour.text.strip())
+            match = regex_hour_modifier_mode_1.match(hour.text.strip())
             if match:
                 time, raw_modifier = match.group(1), match.group(2)
                 self.departures.append({
@@ -69,6 +68,29 @@ class Schedule():
                     'modifiers': list(raw_modifier.replace(' ', '')),
                     'express': int(self.is_express(hour))
                 })
+
+    def process_mode_2(self):
+        print([x.text.strip() for x in self.raw_record])
+        print('ehe')
+
+        self.to = self.raw_record[0]
+        self.via = self.raw_record[1].text.strip().split(', ')
+        if isinstance(self.via, str):
+            self.via = [self.via]
+
+        self.hour_list = self.raw_record[2:]
+
+        for hour in self.hour_list:
+            match = regex_hour_modifier_mode_2.match(hour.text.strip())
+            if match:
+                print(match.group())
+                time, raw_modifier = match.group(1), match.group(2)
+                self.departures.append({
+                    'time': self.time_cleaner(time),
+                    'modifiers': list(raw_modifier.replace(' ', '')),
+                    'express': int(self.is_express(hour))
+                })
+        print(self.departures)
 
     def to_object(self):
         return {
@@ -98,7 +120,7 @@ def scrap_mode_1(valid_until, soup, raw_record_list):
 
     # process the data
     for schedule in list_of_schedule_object:
-        schedule.process()
+        schedule.process_mode_1()
 
     # declaring final data
     final_data = {
@@ -109,38 +131,44 @@ def scrap_mode_1(valid_until, soup, raw_record_list):
 
 def scrap_mode_2(valid_until, soup, raw_record_list):
 
-    print([x.text.strip() for x in raw_record_list])
+    # print([x.text.strip() for x in raw_record_list])
 
     # groups each row according to its schedule
     list_of_schedule_object = []
     schedule_instance = Schedule()
     is_before_a_digit = False
+    is_before_has_colon = False
     for index, line in enumerate(raw_record_list):
         a_string = line.text.strip()
         if a_string:
 
             is_now_a_digit = a_string[0].isdigit()
+            is_now_has_colon = ':' in a_string
 
             if index < 2:
                 pass
-            elif is_before_a_digit and not is_now_a_digit and len(a_string) <= 5:
+            elif is_before_has_colon:
                 schedule_instance.push_information(a_string)
+                is_before_has_colon = is_now_has_colon
                 continue
-            elif is_before_a_digit and not is_now_a_digit:
+            elif not is_before_has_colon and is_before_a_digit and not is_now_a_digit:
                 list_of_schedule_object.append(schedule_instance)
                 schedule_instance = Schedule()
 
             schedule_instance.add_information(line)
-            print([x.text.strip() for x in schedule_instance.raw_record])
+            # print([x.text.strip() for x in schedule_instance.raw_record if hasattr(x, 'text')])
 
             is_before_a_digit = is_now_a_digit
+            is_before_has_colon = is_now_has_colon
 
     # append the leftover
     list_of_schedule_object.append(schedule_instance)
 
     # process the data
     for schedule in list_of_schedule_object:
-        schedule.process()
+        schedule.process_mode_2()
+
+    return
 
     # declaring final data
     final_data = {
