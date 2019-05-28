@@ -70,8 +70,23 @@ class Schedule():
                 })
 
     def process_mode_2(self):
-        print([x.text.strip() for x in self.raw_record])
-        print('ehe')
+        print("process")
+        a_list = [x.text.strip() for x in self.raw_record]
+        print(a_list)
+        if len(a_list) < 2:
+            # todo: bila outlier, pisahkan dari <br>
+            print("outlier")
+            for line in self.raw_record:
+                if line:
+                    # print(line.encode_contents())
+                    print(line.decode_contents())
+                    result = re.search(r">(/s+)<", line.decode_contents())
+                    print(result.group())
+                    # print(line.get_text())
+
+            print()
+            print()
+            return
 
         self.to = self.raw_record[0]
         self.via = self.raw_record[1].text.strip().split(', ')
@@ -83,7 +98,7 @@ class Schedule():
         for hour in self.hour_list:
             match = regex_hour_modifier_mode_2.match(hour.text.strip())
             if match:
-                print(match.group())
+                # print(match.group())
                 time, raw_modifier = match.group(1), match.group(2)
                 self.departures.append({
                     'time': self.time_cleaner(time),
