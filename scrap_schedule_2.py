@@ -12,6 +12,7 @@ import datetime
 regex_hour_modifier_mode_1 = re.compile(r"(\d+\.\d+)\s*(.*)$")
 regex_hour_modifier_mode_2 = re.compile(r"(\d+:\d+)\s*(.*)$")
 
+regex_outlier = re.compile(r">(\w+)<")
 
 example_link = 'http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html'
 snapshot = 'https://web.archive.org/web/20181008002031/http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html'
@@ -80,13 +81,10 @@ class Schedule():
                 if line:
                     # print(line.encode_contents())
                     print(line.decode_contents())
-                    result = re.search(r">(/s+)<", line.decode_contents())
-                    print(result.group())
-                    # print(line.get_text())
-
-            print()
-            print()
-            return
+                    result = regex_outlier.findall(line.decode_contents())
+                    if result:
+                        print(result)
+                        return result
 
         self.to = self.raw_record[0]
         self.via = self.raw_record[1].text.strip().split(', ')
@@ -106,6 +104,7 @@ class Schedule():
                     'express': int(self.is_express(hour))
                 })
         print(self.departures)
+        return None
 
     def to_object(self):
         return {
@@ -180,10 +179,21 @@ def scrap_mode_2(valid_until, soup, raw_record_list):
     list_of_schedule_object.append(schedule_instance)
 
     # process the data
+    outlier = None
     for schedule in list_of_schedule_object:
-        schedule.process_mode_2()
+        result = schedule.process_mode_2()
+        if result: outlier = result
 
-    return
+    for schedule in list_of_schedule_object:
+        print(schedule.via)
+
+    print('ehe')
+
+    # solving the outlier
+    if outlier:
+        print(list_of_schedule_object[-1])
+        print(list_of_schedule_object[-1].via)
+        list_of_schedule_object[-1].via += outlier
 
     # declaring final data
     final_data = {
