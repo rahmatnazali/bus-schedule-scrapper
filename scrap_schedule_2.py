@@ -106,6 +106,9 @@ class Schedule():
         print(self.departures)
         return None
 
+    def is_x_normal(self):
+        return hasattr(self.to, 'text')
+
     def to_object(self):
         return {
             'to': self.to.text.strip(),
@@ -184,21 +187,10 @@ def scrap_mode_2(valid_until, soup, raw_record_list):
         result = schedule.process_mode_2()
         if result: outlier = result
 
-    # for schedule in list_of_schedule_object:
-    #     print(schedule.via)
-
-    # print('ehe')
-
-    # solving the outlier
-    # if outlier:
-    #     print(list_of_schedule_object[-1])
-    #     print(list_of_schedule_object[-1].via)
-    #     list_of_schedule_object[-1].via += outlier
-
     # declaring final data
     final_data = {
         'valid_until': str(valid_until.date()),
-        'destinations': [x.to_object() for x in list_of_schedule_object],
+        'destinations': [x.to_object() for x in list_of_schedule_object if x.is_x_normal()],
         'outlier': outlier if outlier else []
     }
     return final_data
@@ -212,6 +204,7 @@ def scaffold(schedule_link):
     """
     try:
         # make a requests
+        print(schedule_link)
         get_request = requests.get(schedule_link)
         html_text = get_request.content.decode('windows-1250')
 
@@ -235,8 +228,6 @@ def scaffold(schedule_link):
 
         # get all table row
         table_rows = main_table.find_all('tr')
-        print(len(table_rows))
-
 
         # convert table row to list of column
         for row in table_rows:
@@ -250,7 +241,6 @@ def scaffold(schedule_link):
         for col in enumerate(raw_record_list):
             if starting_index != -1 and ending_index != -1:
                 break
-            # print(col[1].text.strip())
             if col[1].text.strip().lower().startswith('Kierunek'.lower()):
                 starting_index = col[0]
             if col[1].text.strip().lower().startswith('OZNACZENIA'.lower()):
@@ -262,10 +252,10 @@ def scaffold(schedule_link):
         # cluster the page according to its mode and scrap accordingly
         cluster_key = 'Przedsiębiorstwo PKS Gryfice Sp. z o.o.'
         if cluster_key in soup.text:
-            print('mode 2')
+            print('\tmode 2')
             final_data = scrap_mode_2(valid_until, soup, raw_record_list)
         else:
-            print('mode 1')
+            print('\tmode 1')
             # final_data = None
             final_data = scrap_mode_1(valid_until, soup, raw_record_list)
 
@@ -278,25 +268,23 @@ def scaffold(schedule_link):
         with open(filename, 'w') as outputFile:
             outputFile.write(json_string)
 
-        print('created:', filename)
+        print('\tcreated:', filename)
 
     except Exception as e:
         print(e, type(e))
 
-    print()
-
 
 
 # link 1
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html')
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/nowogard.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/gryfice.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/nowogard.html')
 
 
 # link 2
-scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin_d.html')
-scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/slupsk.html')
-scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_lipa.html')
-scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/kolobrzeg.html')
-scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/ploty.html')
-scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin.html')
-scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_torowa.html')
+# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin_d.html')
+# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/slupsk.html')
+# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_lipa.html')
+# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/kolobrzeg.html')
+# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/ploty.html')
+# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin.html')
+# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_torowa.html')
