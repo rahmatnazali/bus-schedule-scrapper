@@ -71,19 +71,18 @@ class Schedule():
                 })
 
     def process_mode_2(self):
-        print("process")
         a_list = [x.text.strip() for x in self.raw_record]
-        print(a_list)
+        # print(a_list)
         if len(a_list) < 2:
-            # todo: bila outlier, pisahkan dari <br>
-            print("outlier")
+            print("\toutlier spotted")
             for line in self.raw_record:
                 if line:
-                    # print(line.encode_contents())
-                    print(line.decode_contents())
+                    # debug: to know the content
+                    # print(line.decode_contents())
                     result = regex_outlier.findall(line.decode_contents())
                     if result:
-                        print(result)
+                        # debug: regex result
+                        # print(result)
                         return result
 
         self.to = self.raw_record[0]
@@ -96,16 +95,18 @@ class Schedule():
         for hour in self.hour_list:
             match = regex_hour_modifier_mode_2.match(hour.text.strip())
             if match:
-                # print(match.group())
                 time, raw_modifier = match.group(1), match.group(2)
                 self.departures.append({
                     'time': self.time_cleaner(time),
                     'modifiers': list(raw_modifier.replace(' ', '')),
                     'express': int(self.is_express(hour))
                 })
-        print(self.departures)
+
+        # debug: to print current departures
+        # print(self.departures)
         return None
 
+    # only used for mode 2, to handling null safe of outlier
     def is_x_normal(self):
         return hasattr(self.to, 'text')
 
@@ -119,6 +120,7 @@ class Schedule():
 def scrap_mode_1(valid_until, soup, raw_record_list):
     # groups each row according to its schedule
     list_of_schedule_object = []
+    schedule_instance = Schedule()
     schedule_instance = Schedule()
     is_before_a_digit = False
     for line in raw_record_list:
@@ -281,10 +283,10 @@ scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/nowogard.html')
 
 
 # link 2
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin_d.html')
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/slupsk.html')
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_lipa.html')
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/kolobrzeg.html')
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/ploty.html')
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin.html')
-# scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_torowa.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin_d.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/slupsk.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_lipa.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/kolobrzeg.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/ploty.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/szczecin.html')
+scaffold('http://www.pksgryfice.com.pl/uploads/images/rja/trzebiatow_torowa.html')

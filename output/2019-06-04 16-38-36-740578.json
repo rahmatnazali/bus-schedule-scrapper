@@ -1,0 +1,1 @@
+{"valid_until": "2018-09-01", "destinations": [{"departures": [{"time": "16:00", "express": 0, "modifiers": ["U", "m", "P"]}], "to": "Szczecin", "via": ["Koszalin"]}], "outlier": []}
