@@ -184,21 +184,22 @@ def scrap_mode_2(valid_until, soup, raw_record_list):
         result = schedule.process_mode_2()
         if result: outlier = result
 
-    for schedule in list_of_schedule_object:
-        print(schedule.via)
+    # for schedule in list_of_schedule_object:
+    #     print(schedule.via)
 
-    print('ehe')
+    # print('ehe')
 
     # solving the outlier
-    if outlier:
-        print(list_of_schedule_object[-1])
-        print(list_of_schedule_object[-1].via)
-        list_of_schedule_object[-1].via += outlier
+    # if outlier:
+    #     print(list_of_schedule_object[-1])
+    #     print(list_of_schedule_object[-1].via)
+    #     list_of_schedule_object[-1].via += outlier
 
     # declaring final data
     final_data = {
         'valid_until': str(valid_until.date()),
-        'destinations': [x.to_object() for x in list_of_schedule_object]
+        'destinations': [x.to_object() for x in list_of_schedule_object],
+        'outlier': outlier if outlier else []
     }
     return final_data
 
