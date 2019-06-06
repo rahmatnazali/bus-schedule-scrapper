@@ -25,7 +25,58 @@ created: output/2019-05-18 15-00-52-524234.json
 
 ```
 
-###### Example of result JSON
+##### Beware the **outlier**
+
+(JSON full example are below this section)
+
+```json
+{
+   "valid_until":"2019-02-01",
+   "destinations":[  
+      {  
+         "departures":[  
+            {  
+               "time":"05:30",
+               "express":0,
+               "modifiers":[  
+                  "D"
+               ]
+            },
+            {  
+               "time":"06:40",
+               "express":0,
+               "modifiers":[  
+                  "D"
+               ]
+            },
+            {  
+               "time":"10:25",
+               "express":0,
+               "modifiers":[  
+                  "C",
+                  "L",
+                  "m"
+               ]
+            }
+         ],
+         "to":"Szczecin",
+         "via":[  
+            "Dźwirzyno"
+         ]
+      },
+      
+      {...}
+   
+   ],
+   "outlier":[  
+      "Gościno",
+      "Sławoborze"
+   ]
+}
+```
+
+
+##### Example of result JSON
 
 ```json
 {  
