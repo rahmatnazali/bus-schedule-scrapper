@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import json
 import click
 
-import io
 import datetime
 
 
@@ -198,8 +197,8 @@ def scrap_mode_2(valid_until, soup, raw_record_list):
     return final_data
 
 
-# @click.command()
-# @click.option('--schedule_link', default=example_link, prompt='Schedule link', help = """The link that leads directly to the schedule page""")
+@click.command()
+@click.option('--schedule_link', default=example_link, prompt='Schedule link', help = """The link that leads directly to the schedule page""")
 def scaffold(schedule_link):
     """
     Scaffold HTML table formed schedule into JSON
